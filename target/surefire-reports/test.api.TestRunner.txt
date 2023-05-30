@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: test.api.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.77 s <<< FAILURE! - in test.api.TestRunner
+runTest[1][1]  Time elapsed: 3.055 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 404, expected: 200, response time in milliseconds: 257, url: https://tek-insurance-api.azurewebsites.net/api/accounts/get-primary-account?primaryPersonId=8706, response: 
+{"timestamp":1685075612671,"status":404,"error":"Not Found","path":"/api/accounts/get-primary-account"}
+classpath:features/GetAccount.feature:15
+
